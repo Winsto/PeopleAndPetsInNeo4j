@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{302271B7-F116-48C4-AD3A-49B57E8A4A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4jPersistence", "Neo4jPersistence\Neo4jPersistence.csproj", "{DA7580E0-6FBD-4442-A174-658611FB24E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{302271B7-F116-48C4-AD3A-49B57E8A4A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302271B7-F116-48C4-AD3A-49B57E8A4A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302271B7-F116-48C4-AD3A-49B57E8A4A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7580E0-6FBD-4442-A174-658611FB24E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7580E0-6FBD-4442-A174-658611FB24E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7580E0-6FBD-4442-A174-658611FB24E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7580E0-6FBD-4442-A174-658611FB24E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
