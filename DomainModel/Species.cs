@@ -10,6 +10,6 @@ namespace DomainModel
             speciesCommonName = commonName;
         }
 
-        public string CommonName { get { return CommonName; } }
+        public string CommonName { get { return speciesCommonName; } }
     }
 }
