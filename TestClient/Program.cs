@@ -8,9 +8,9 @@ namespace TestClient
     {
         static void Main(string[] args)
         {
-            var dogs = new Animal(familyName: "Canidae", trivialName: "dog");
+            var dogs = new Animal(familyName: "Canidae", trivialName: "dogs");
 
-            var cats = new Animal(familyName: "Felidae", trivialName: "cat");
+            var cats = new Animal(familyName: "Felidae", trivialName: "cats");
 
             var cattle = new Animal(familyName: "Bovidae", trivialName: "cattle");
 
