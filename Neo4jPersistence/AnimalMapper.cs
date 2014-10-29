@@ -4,7 +4,7 @@
     using Neo4jClient;
     using System.Collections.Generic;
     
-    public class AnimalMapper:Neo4jMapper, Mapper<Animal>
+    public sealed class AnimalMapper:Neo4jMapper, Mapper<Animal>
     {
         public void SaveItem(Animal itemToSave)
         {

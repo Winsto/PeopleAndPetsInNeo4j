@@ -58,6 +58,7 @@
     <Compile Include="DatabaseHelper.cs" />
     <Compile Include="Mapper.cs" />
     <Compile Include="Neo4jMapper.cs" />
+    <Compile Include="PetMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
