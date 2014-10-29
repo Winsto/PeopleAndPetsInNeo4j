@@ -35,6 +35,7 @@
                     Match("(person:Person), (pet:Pet)").
                     Where<Person>(person => person.Name == itemToSave.Name).
                     AndWhere<Pet>(pet => pet.Name == petToSave.Name).
+                    AndWhere(" not (:Person)-[:CaresFor]-(pet)").
                     Merge("(person)-[:CaresFor]->(pet)").
                     ExecuteWithoutResults();
 

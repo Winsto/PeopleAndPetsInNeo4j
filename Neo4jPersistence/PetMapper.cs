@@ -26,7 +26,7 @@
             animalMapper.SaveItem(itemToSave.WhatAnimalIsIt);
 
             databaseConnection.Cypher.
-                Merge("(:Pet {Name:{petName}})").
+                Create("(:Pet {Name:{petName}})").
                 WithParam("petName",itemToSave.Name).
                 ExecuteWithoutResults();
 
